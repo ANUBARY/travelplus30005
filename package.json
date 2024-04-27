@@ -1,0 +1,56 @@
+{
+  "name": "github-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js --exec babel-node --presets babel-preset-env",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "test": "mocha test/**/*.js --exit"
+  },
+  "dependencies": {
+    "axois": "0.0.1-security",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "~4.17.1",
+    "express-validator": "^5.3.1",
+    "google-auth-library": "^6.0.0",
+    "helmet": "^3.15.1",
+    "http-errors": "~1.7.3",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.9.10",
+    "morgan": "~1.10.0",
+    "naughty-string-validator": "^1.1.0",
+    "pug": "2.0.4",
+    "react-google-login": "^5.1.20",
+    "react-select": "^3.1.0",
+    "sinon-mongoose": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "google-map-react": "^1.1.7",
+    "mocha": "^7.2.0",
+    "nodemon": "^2.0.4",
+    "sinon": "^9.0.2",
+    "supertest": "^4.0.2"
+  },
+  "description": "Link: https://info30005travelplus.herokuapp.com/",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelinalim911/info30005_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelinalim911/info30005_project/issues"
+  },
+  "homepage": "https://github.com/Angelinalim911/info30005_project#readme"
+}

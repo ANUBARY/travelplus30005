@@ -1,0 +1,59 @@
+.jumbotron {
+    background-image: url("../../background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 650px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbotron h2, .jumbotron h3 {
+    color: #ffffff;
+}
+
+.jumbotron h2 {
+    font-size: 75px;
+    text-shadow: 0 0 20px rgb(0,0,0,0.2);
+    margin: 0;
+}
+
+.jumbotron h3 {
+    margin: 0.5rem 0;
+    font-size: 1.7rem;
+    text-shadow: 0 5px 20px rgb(0,0,0,0.2);
+}
+
+.jumbotron h4 {
+    line-height: 1.5rem;
+    text-shadow: 0 5px 20px rgb(0,0,0,0.2);
+}
+
+.logowhite {
+    max-width: 300px;
+}
+
+.jumbotron .button {
+    border-radius: 0.4rem;
+    padding: 0.55rem 1.6rem;
+    margin-top: 1rem;
+    border: solid 1px #fff;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 0 5px 20px rgb(0,0,0,0.15)
+}
+
+.jumbotron .button:hover {
+    transition: all 0.3s ease 0s;
+    border: solid 1px #fff;
+    color: rgba(154, 154, 154, 0.97);
+    background-color: rgba(255,255,255,0.5);
+}

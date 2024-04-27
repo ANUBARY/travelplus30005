@@ -1,0 +1,109 @@
+.alertBackground {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 650px;
+    color: black;
+}
+
+.mapPage {
+    align-items: unset;
+    text-align: unset;
+}
+
+.info {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 28%;
+    padding: 1.6rem 2rem 1.6rem 2.8rem;
+    text-align: left;
+    background-color: #515151;
+    color: white;
+    height: 100%;
+    font-weight: 400;
+}
+
+.info a {
+    text-decoration: none;
+    color: #9ecafb;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.info h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    padding-bottom: .5em;
+}
+
+.info h3 {
+    color: #9ecafb;
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 3%;
+}
+
+.info h4 {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.info p {
+    font-size: 13px;
+}
+
+.map {
+    align-items: unset;
+    height: 100%;
+    width: 100%;
+}
+
+.live span {
+    color: red;
+    animation: flickerAnimation 1.5s infinite;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+
+.marker {
+    stroke: #FF0000;
+    padding: 10px 16px;
+    display: inline-flex;
+    min-width: 110px;
+    background-color: rgba(255, 0, 0, 0.67);
+    color: #ffffff;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    border: solid 1px rgba(255, 0, 0, 0.8);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@media only screen and (max-width: 1000px) {
+    .alertBackground {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .info {
+        max-width: unset;
+        padding: 1.5rem;
+    }
+
+    .info h2 {
+        width: max-content;
+    }
+
+    .map {
+        height: 37rem;
+    }
+    .mapPage .Footer {
+        margin-top: 0;
+    }
+}

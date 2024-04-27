@@ -1,0 +1,141 @@
+div {
+  font-family: 'Source Sans Pro', sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+.CountryMenu {
+  width: 18%;
+  min-width: 200px;
+  margin: auto;
+}
+
+#title {
+  margin: 1em 0 0 0;
+  color: black;
+}
+
+.Disclaimer {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+  box-shadow: 0 0 20px rgb(0,0,0,0.15);
+  padding: 1.8em 2.2em;
+  font-size: 20px;
+  max-width: 35%;
+  font-weight: 300;
+  border-radius: 0.7em;
+}
+
+.Disclaimer h3 {
+  margin-top: 0;
+  letter-spacing: 0.06em;
+}
+
+.Disclaimer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.Disclaimer .Button {
+  color: white;
+  margin-top: 1.4em;
+  border-radius: 2rem;
+  padding: 0.5rem 2.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 5px 20px rgb(0,0,0,0.15);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-image: linear-gradient(to right, #3498DB 0%, #2CC2A4 100%);
+  background-size: 170% auto;
+}
+
+.Disclaimer .Button:hover {
+  background-position: right center;
+  color: #fff;
+}
+
+table {
+  min-width: 20rem;
+  margin: 1em auto;
+  width: 700px;
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgb(0,0,0,0.15);
+  font-size: 15px;
+}
+
+table th {
+  background-color: #3498DB;
+  color: white;
+  font-size: 1.1em;
+  padding: 10px 15px;
+}
+
+table th:nth-child(1) {
+  border-right: solid rgba(255,255,255,0.7) 1px;
+}
+
+table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+table tr td:last-of-type {
+  text-align: left;
+}
+
+table tr:nth-last-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tr:last-of-type {
+  border-bottom: 2px solid #3498DB;
+}
+
+.source {
+  margin-top: 2.5rem;
+  font-size: 10px;
+}
+
+.VisaReq th {
+  width: 180px;
+  border-bottom: 1px solid #3498DB;
+}
+
+table th {
+  width: 90px;
+}
+
+.reqPage {
+  height: 110vh;
+}
+
+@media only screen and (max-width: 700px) {
+  .Disclaimer {
+    max-width: 20rem;
+  }
+
+  #desc {
+    padding: 0 20px;
+  }
+
+  tr td:nth-child(1) {
+    width: 100px;
+  }
+
+  .VisaReq th {
+    width: 120px;
+  }
+
+  table td {
+    padding: 10px 10px;
+  }
+}
